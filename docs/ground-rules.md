@@ -14,13 +14,13 @@
 
 * What are the core practices you will use to coordinate your work as a team? Include coordination media (e.g. Slack, Zoom, Discord, e-mail, scrum stand-ups, etc.) and tentative schedule (including how much time you are planning to set aside for ongoing coordination). 
 
-The core practices we will use to coordinate work as a team will be solid communication between group members, letting the others know if they are falling behind in certain areas or need some help in others. We will communicate with each other through Slack, Zoom, Discord, phone, or in person if needed, meeting
+	The core practices we will use to coordinate work as a team will be solid communication between group members, letting the others know if they are falling behind in certain areas or need some help in others. We will communicate with each other through Slack, Zoom, Discord, phone, or in person if needed, meeting
 two to four times per week depending on the workload and progress.
 
 * How will development tasks be chosen/assigned/accepted?
 
-Tasks will be assigned according to the respecive team members skill and comfort in relation to the coding section required.
+	Tasks will be assigned according to the respecive team members skill and comfort in relation to the coding section required.
 
 * What practices do intend to use for resolution of conflicts?
 
-For any conflict that arise, we will have a group meeting/intervention to discuss the problem at hand and resolve the conflict as a team in a peaceful manner.
+	For any conflict that arise, we will have a group meeting/intervention to discuss the problem at hand and resolve the conflict as a team in a peaceful manner.
