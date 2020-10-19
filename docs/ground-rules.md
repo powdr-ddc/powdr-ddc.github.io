@@ -24,3 +24,11 @@ two to four times per week depending on the workload and progress.
 * What practices do intend to use for resolution of conflicts?
 
 	For any conflict that arise, we will have a group meeting/intervention to discuss the problem at hand and resolve the conflict as a team in a peaceful manner.
+	
+* How will the team manage the creation of new branches?
+
+	We will manage the creation of new branches according to which feature we need to implement next, similar to how we did with codebreaker and the spinners.
+	
+* How will the team manage merges into the master branch, to minimize the possibility of breaking the builds on that branch?
+
+	Merges into the master branch will be handled by the group leader, Adrian, after reviewing the code and confirming the features will work when merged into the master.
