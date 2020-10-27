@@ -130,6 +130,9 @@ A section in the app will allow users to see the weather from various mountains 
 		
 			* Data base for weather data. App should still function without service.
 
+
+## [Entity Relationship Diagram](powdr-erd.md)
+
 ## Stretch goals/possible enhancements 
 
 * GPS distance tracking to track distance traveled throughout the season
