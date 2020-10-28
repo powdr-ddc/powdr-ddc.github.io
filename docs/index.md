@@ -4,7 +4,7 @@ Powdr is designed to be a social ski app to meet other riders around the world. 
 They can meetup with other riders, share pictures, talk about ski/snowboard advice, or whatever they want to talk about. If they so please, users can add other riders and message them. Using the different GPS capabilites, the app will be able to check your distance traveled per ski day, and log your tracked distance into a leaderboard where you can compare with friends and other people internationally. 
 To top it off, there will be a section in the app that will allow users to see the weather from various mountains of their choosing.
 
-Intended Functionality:
+ **Intended Functionality**
 
 Users will create a profile that they can customize to their liking. They can upload pictures, create a biography, see their personal stats such as days ridden or distance traveled, and choose from a list of their favorited mountains for easy access to the weather.
 With a profile, the user can post to a shared community wall that is based off of GPS location, or a general international scope where users can see others from around their country. On this shared wall, users can comment on each others posts, upload pictures, and posts, to connect with 
@@ -97,6 +97,10 @@ and/or check the number of days they went skiing for a given season.
 			* Obtains weather data to update the weather aspect of the app. System can still function without it.
 		
    
+   
+## [Entity Relationship Diagram](powdr-erd.md)
+   
+   
 ## Server component
 
 * **Functionality**
@@ -137,8 +141,6 @@ and/or check the number of days they went skiing for a given season.
 		
 			* Data base for weather data. App should still function without service.
 
-
-## [Entity Relationship Diagram](powdr-erd.md)
 
 ## Stretch goals/possible enhancements 
 
