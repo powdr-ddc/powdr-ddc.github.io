@@ -1,0 +1,13 @@
+repository_links:
+  enabled: false
+page_navigator:
+  enabled: false
+titles_from_headings:
+  enabled: false
+
+title: "Powdr"
+description: "A social media app for connecting skiers and snowboarders."
+authors:
+  name: "Adrian Anaya, Jonah Rodriguez, Austin West"
+
+theme: jekyll-theme-midnight

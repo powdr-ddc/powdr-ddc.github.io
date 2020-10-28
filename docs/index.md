@@ -136,6 +136,9 @@ and/or check the number of days they went skiing for a given season.
 		
 			* Data base for weather data. App should still function without service.
 
+
+## [Entity Relationship Diagram](powdr-erd.md)
+
 ## Stretch goals/possible enhancements 
 
 * GPS distance tracking to track distance traveled throughout the season
