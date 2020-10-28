@@ -5,6 +5,7 @@ They can meetup with other riders, share pictures, talk about ski/snowboard advi
 To top it off, there will be a section in the app that will allow users to see the weather from various mountains of their choosing.
 
 Intended Functionality:
+
 Users will create a profile that they can customize to their liking. They can upload pictures, create a biography, see their personal stats such as days ridden or distance traveled, and choose from a list of their favorited mountains for easy access to the weather.
 With a profile, the user can post to a shared community wall that is based off of GPS location, or a general international scope where users can see others from around their country. On this shared wall, users can comment on each others posts, upload pictures, and posts, to connect with 
 other people around the world. If a user connects with someone on the app, they can send a friend request to the respective user and message them from within the app. If the social connection aspect is not alluring to some folks, they can instead choose to use the app for utility, allowing them to track the weather at different ski resorts, log their distance traveled for a certain day, 
