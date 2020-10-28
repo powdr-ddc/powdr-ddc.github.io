@@ -32,3 +32,8 @@ two to four times per week depending on the workload and progress.
 * How will the team manage merges into the master branch, to minimize the possibility of breaking the builds on that branch?
 
 	Merges into the master branch will be handled by the group leader, Adrian, after reviewing the code and confirming the features will work when merged into the master.
+	
+* Scrum Schedule:
+	Every day, 5-10 minutes before the start of class at 8am.
+	
+	Group Work Meeting Times: 7:00 or 8:00pm until however long it takes.
