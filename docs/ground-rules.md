@@ -19,7 +19,7 @@ two to four times per week depending on the workload and progress.
 
 * How will development tasks be chosen/assigned/accepted?
 
-	Tasks will be assigned according to the respecive team members skill and comfort in relation to the coding section required.
+	Tasks will be assigned according to the respective team members skill and comfort in relation to the coding section required.
 
 * What practices do intend to use for resolution of conflicts?
 
@@ -31,7 +31,7 @@ two to four times per week depending on the workload and progress.
 	
 * How will the team manage merges into the master branch, to minimize the possibility of breaking the builds on that branch?
 
-	Merges into the master branch will be handled by the group leader, Adrian, after reviewing the code and confirming the features will work when merged into the master.
+	Merges will be handled through a pull request.
 	
 * Scrum Schedule:
 	Every day, 5-10 minutes before the start of class at 8am.
