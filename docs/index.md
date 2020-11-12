@@ -90,11 +90,6 @@ and/or check the number of days they went skiing for a given season.
 		
 			* Obtains weather data to update the weather aspect of the app. System can still function without it.
 		
-   
-   
-## [Entity Relationship Diagram](powdr-erd.md)
-   
-   
 ## Server component
 
 * **Functionality**
@@ -135,6 +130,9 @@ and/or check the number of days they went skiing for a given season.
 		
 			* Data base for weather data. App should still function without service.
 
+
+## [Entity Relationship Diagram](powdr-erd.md)
+## [Data Model Implementation](entities.md)
 
 ## Stretch goals/possible enhancements 
 
