@@ -1,3 +1,11 @@
+## Team Members
+
+* Adrian Anaya
+
+* Jonah Rodriguez
+
+* Austin West
+
 ## Summary
 
 Powdr is designed to be a social ski app to meet other riders around the world. Users will be able to create a user profile where they can upload pictures, state their skill level, list their home mountains, days logged, ect. Users will also be able to post to a shared community wall, allowing them to see posts only locally if they want based on GPS, or nationally if they want as well. 
