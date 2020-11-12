@@ -15,19 +15,15 @@ and/or check the number of days they went skiing for a given season.
 
 * People who want to meet others who enjoy skiing/snowboarding
 
-	> As someone who goes skiing often, I want to meet other riders around me so I can make more friends who ski/snowboard and form a community in which we can improve together.
-	
-* People who lack friends that ski/snowboard
-
-	> As someone who goes skiing way more often than any of my friends, I want to meet other solo riders so we can meetup at the mountain or carpool and hopefully befriend others who go skiing as frequently as me.
+	> As someone who goes skiing often, I want to meet other riders around me so that I can make more friends who ski/snowboard and carpool to the mountain, forming a community in which we can improve together.
 
 * People who are interested in the mountain weather
 
-	> As someone who lives near multiple ski resorts and mountains, I want to check the weather of the various mountains to decide which one will have the best conditions for skiing so I can decide which mountain I should go to that day.
+	> As someone who lives near multiple ski resorts and mountains, I want to check the weather of the various mountains to decide which one will have the best conditions for skiing so that I can decide which mountain I should go to that day.
 
 * People who are interested in logging their feet traveled per ski season
 
-	> As someone with a competitive nature, I want to be able to log my stats on the app to track my feet traveled per season as well my total days ridden so I can compare it with my friends and others around the world, and hopefully climb to the top of the leaderboard!
+	> As someone with a competitive nature, I want to be able to log my stats on the app to track my feet traveled per season as well my total days ridden so that I can compare it with my friends and others around the world, and hopefully climb to the top of the leaderboard!
 
 ## Client component
 
@@ -60,7 +56,7 @@ and/or check the number of days they went skiing for a given season.
 	
 	  Screen for real-time weather data
 		
-	* GPS Feet Tracker Section
+	* GPS Distance Tracker
 	
 	  Screen for tracking distance traveled through GPS to upload to a leaderboard and share with friends/community.
     
@@ -69,8 +65,6 @@ and/or check the number of days they went skiing for a given season.
     * User Profile
 	
 	* Messages prior to connection loss
-	
-	* Community Wall prior to connection loss
 	
 	* Distance traveled for tracker
 	
