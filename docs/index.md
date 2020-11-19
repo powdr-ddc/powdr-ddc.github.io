@@ -8,7 +8,7 @@
 
 ## Summary
 
-Powdr is designed to be a social ski app to meet other riders around the world. Users will be able to create a user profile where they can upload pictures, state their skill level, list their home mountains, days logged, ect. Users will also be able to post to a shared community wall, allowing them to see posts only locally if they want based on GPS, or nationally if they want as well. 
+Powdr is a social ski app, designed to meet other riders around the world. Users will be able to create a user profile where they can upload pictures, state their skill level, list their home mountains, days logged, ect. Users will also be able to post to a shared community wall, allowing them to see posts only locally if they want based on GPS, or nationally if they want as well. 
 They can meetup with other riders, share pictures, talk about ski/snowboard advice, or whatever they want to talk about. If they so please, users can add other riders and message them. Using the different GPS capabilites, the app will be able to check your distance traveled per ski day, and log your tracked distance into a leaderboard where you can compare with friends and other people internationally. 
 To top it off, there will be a section in the app that will allow users to see the weather from various mountains of their choosing.
 
@@ -138,9 +138,23 @@ and/or check the number of days they went skiing for a given season.
 		
 			* Data base for weather data. App should still function without service.
 
+## Server Side Design & Implementation
 
-## [Entity Relationship Diagram](powdr-erd.md)
-## [Data Model Implementation](entities.md)
+### [Wireframe](md/wireframe.md)
+
+### [Entity Relationship Diagram](md/powdr-erd.md)
+
+### [Data Model Implementation](md/entities.md)
+
+### [Data Definition Language (DDL) SQL](ddl.md)
+
+### [Repository Interfaces](md/interfaces.md)
+
+### [OAuth2.0 Resource Server](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/configuration/SecurityConfiguration.java)
+
+### [REST Controllers and Application Logic Services](md/endpoints.md)
+
+### [Javadocs](api/index.html)
 
 ## Stretch goals/possible enhancements 
 
