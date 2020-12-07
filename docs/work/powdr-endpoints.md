@@ -1,6 +1,4 @@
 # Powdr Endpoints
-(in progress)
-
 
 # Global
 ## Server context path
