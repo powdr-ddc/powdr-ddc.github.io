@@ -148,6 +148,8 @@ and/or check the number of days they went skiing for a given season.
 
 ### [Data Definition Language (DDL) SQL](ddl.md)
 
+### [Technology Stacks](md/techstacks.md)
+
 ### [Repository Interfaces](md/interfaces.md)
 
 ### [OAuth2.0 Resource Server](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/configuration/SecurityConfiguration.java)
