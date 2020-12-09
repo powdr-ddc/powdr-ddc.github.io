@@ -1,5 +1,7 @@
 ## Build Instructions
 
+### Cloning the project
+
 1. First, you will want to clone service project. 
 Repository can be found here: [Powdr Service](https://github.com/powdr-ddc/powdr-service)
 
@@ -22,5 +24,11 @@ Repository can be found here: [Powdr Android](https://github.com/powdr-ddc/powdr
    
 10. Paste the link you copied from step 3 and click "clone".
 
+### Running the project
 
+1. First, you will need to open the service project and click the green "Run" button. You will want
+to have the service project running in the background while using the android app.
+
+2. Second, open the android project and click the green "Run" button. Both the server and app should 
+be running, building, and ready to go at this point. 
  
