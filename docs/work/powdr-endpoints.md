@@ -129,6 +129,23 @@ Return `ski-resort`
 **Response status**  
 - `200 OK`  
 - `404 NOT FOUND`
+
+`GET /ski-resorts/location`
+
+**Description**  
+Return `ski-resort` according to its latitude and longitude.  
+**Path parameters**  
+    `SkiResort` identifier  
+**Query Parameters**  
+(None)  
+**Request body**  
+- `latitude`  
+- `longitude`  
+**Response body**  
+`SkiResort`  
+**Response status**  
+- `200 OK`  
+- `404 NOT FOUND`
   
 `GET /trips`
   
@@ -364,6 +381,21 @@ Updates or replaces specified post
 Deletes specified post  
 **Path parameters**  
 `postId`  
+**Query Parameters**  
+(None)  
+**Request body**  
+(None)  
+**Response body**  
+(None)  
+**Response status**  
+- `204 NO CONTENT`
+
+`GET /posts/{keyword}`
+
+**Description**  
+Gets and displays posts gathered by a keyword.  
+**Path parameters**  
+`keyword`  
 **Query Parameters**  
 (None)  
 **Request body**  

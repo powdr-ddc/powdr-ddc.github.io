@@ -6,7 +6,7 @@
   * Apache HTTP server configured as reverse proxy
   * JRE 8
   * Apache Tomcat Java application server
-  * Wev service application, incorporating:
+  * Web service application, incorporating:
     * Data model
         * Embedded Apache Derby database
         * Hibernate ORM
