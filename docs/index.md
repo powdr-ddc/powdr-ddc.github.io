@@ -150,7 +150,7 @@ and/or check the number of days they went skiing for a given season.
 
 ### [Technology Stacks](md/techstacks.md)
 
-### [Endpoints](work/powdr-endpoints.md)
+### [Endpoints](md/powdr-endpoints.md)
 
 ### [Repository Interfaces](md/interfaces.md)
 
