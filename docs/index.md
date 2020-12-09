@@ -19,6 +19,10 @@ With a profile, the user can post to a shared community wall that is based off o
 other people around the world. If a user connects with someone on the app, they can send a friend request to the respective user and message them from within the app. If the social connection aspect is not alluring to some folks, they can instead choose to use the app for utility, allowing them to track the weather at different ski resorts, log their distance traveled for a certain day, 
 and/or check the number of days they went skiing for a given season.
 
+[Build Instructions](md/build-instructions.md)
+
+[Basic User Instructions](md/basic-instructions.md)
+
 ## Intended users
 
 * People who want to meet others who enjoy skiing/snowboarding

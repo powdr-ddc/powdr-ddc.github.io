@@ -21,5 +21,3 @@ Service Classes:
 * [Trip](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/service/TripService.java)
 
 * [User](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/service/UserService.java)
-
-[powdr-endpoints.md](powdr-endpoints.md)
