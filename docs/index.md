@@ -171,3 +171,5 @@ and/or check the number of days they went skiing for a given season.
 * Tips and Tricks section for users to share with the community
 	
 * Event Page with listed snowboarding events like X Games
+
+### [Copyright & License info](md/copyright.md)
