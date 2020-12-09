@@ -26,9 +26,14 @@ Repository can be found here: [Powdr Android](https://github.com/powdr-ddc/powdr
 
 ### Running the project
 
-1. First, you will need to open the service project and click the green "Run" button. You will want
-to have the service project running in the background while using the android app.
+First, you will need to open the service project. 
 
-2. Second, open the android project and click the green "Run" button. Both the server and app should 
+1.To run the server, you will have to navigate to the PreloadLauncher class, and run the program 
+until IntelliJ tells you that the program has started.
+
+2. Next, you will have to navigate to the ServiceLauncher, and run that program and have it running in 
+the background while using the android app.
+
+Second, open the android project and click the green "Run" button. Both the server and app should 
 be running, building, and ready to go at this point.
  
