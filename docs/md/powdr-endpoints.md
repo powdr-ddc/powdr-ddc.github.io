@@ -24,10 +24,26 @@ Return list of `users` by name
 (None)  
 **Query Parameters**  
 - `name`  
+- `id`  
 **Request body**  
 (None)  
 **Response body**  
 `User``[]`  
+**Response status**  
+- `200 OK`
+
+`GET /users/{userId}`
+
+**Description**   
+Return the current `User` (profile) by id  
+**Path parameters**  
+`userId`  
+**Query Parameters**     
+(None)  
+**Request body**  
+(None)  
+**Response body**  
+`User`  
 **Response status**  
 - `200 OK`
 
@@ -46,7 +62,7 @@ Return the current `User` (profile)
 **Response status**  
 - `200 OK`
 
-`PUT /users/me/picture`
+`GET /users/me/image`
 
 **Description**  
 Set profile picture for the current `User`  
@@ -76,6 +92,21 @@ Retrieves the display name of current `user`
 **Response status**  
 - `200 OK`
 
+`PUT /users/me/image`
+
+**Description**  
+Set profile picture for the current `User`  
+**Path parameters**  
+(None)  
+**Query Parameters**  
+(None)  
+**Request body**  
+`MultipartFile`  
+**Response body**  
+`User`  
+**Response status**    
+- `200 OK`
+
 `PUT /users/me/name`
 
 **Description**  
@@ -88,6 +119,23 @@ Change name of current `user`
 `String (Content-type: text/plain)`  
 **Response body**  
 `String (Content-type: text/plain)`  
+**Response status**  
+- `200 OK`  
+- `400 BAD REQUEST`  
+    Empty request body
+
+`PUT /users/{friendshipId}`
+
+**Description**  
+Sets a User to a User's friends  
+**Path parameters**  
+`friendshipId`  
+**Query Parameters**  
+(None)  
+**Request body**  
+`boolean friend`  
+**Response body**  
+(None)  
 **Response status**  
 - `200 OK`  
 - `400 BAD REQUEST`  
@@ -146,6 +194,54 @@ Return `ski-resort` according to its latitude and longitude.
 **Response status**  
 - `200 OK`  
 - `404 NOT FOUND`
+
+`PUT /ski-resorts/{skiResortId}/favorite`
+
+**Description**  
+Posts a single `ski-resort`  
+**Path parameters**  
+`skiResortId`  
+**Query Parameters**  
+(None)
+**Request body**  
+`boolean favorite`  
+**Response body**  
+(None)  
+**Response status**  
+- `200 OK`  
+- `404 NOT FOUND`
+  
+`POST /ski-resorts`
+
+**Description**  
+Posts a single `ski-resort`  
+**Path parameters**  
+(None)  
+**Query Parameters**  
+(None)
+**Request body**  
+`skiResort`  
+**Response body**  
+`SkiResort`  
+**Response status**  
+- `200 OK`  
+- `404 NOT FOUND`
+
+`DELETE /ski-resorts/{skiResortId}`
+
+**Description**  
+Deletes a single `ski-resort`  
+**Path parameters**  
+`skiResortId`  
+**Query Parameters**  
+(None)  
+**Request body**  
+`skiResort`  
+**Response body**  
+`SkiResort`  
+**Response status**  
+- `200 OK`  
+- `404 NOT FOUND`
   
 `GET /trips`
   
@@ -154,7 +250,7 @@ Returns all `Trips`
 **Path parameters**  
 (None)  
 **Query Parameters**  
-(None)  
+`distance`  
 **Request body**  
 (None)  
 **Response body**  
@@ -179,6 +275,22 @@ Return the specified `trip`
 - `200 OK`  
 - `404 NOT FOUND`
 
+`GET /trips/end-time`
+  
+**Description**  
+Returns all `Trips` by end-time  
+**Path parameters**  
+(None)  
+**Query Parameters**  
+`distance`  
+**Request body**  
+`date`  
+**Response body**  
+`Trip[]`  
+**Response status**  
+- `200 OK`  
+- `404 NOT FOUND`
+
 `POST trips/`
 
 **Description**  
@@ -195,114 +307,37 @@ Create a new `trip`
 - `201 CREATED`  
 - `400 BAD REQUEST`  
     One or more invalid `Trip` properties
-      
-`GET favorite-ski-resorts/`
 
+`GET /trips/duration`
+  
 **Description**  
-Return favorite ski resorts for the current `user`  
+Returns all `Trips` by duration 
 **Path parameters**  
 (None)  
 **Query Parameters**  
-(None)  
+`distance`  
 **Request body**  
-(None)  
+- `date`
+    -`start`  
+    -`end`
 **Response body**  
-`SkiResort[]`  
+`Trip[]`  
 **Response status**  
-- `200 OK`
+- `200 OK`  
+- `404 NOT FOUND`
 
-`POST /favorite-ski-resorts`
-
+`DELETE /trips`
+  
 **Description**  
-Adds ski resort to favorites of current `user`  
+Deletes all `Trips`  
 **Path parameters**  
 (None)  
 **Query Parameters**  
-(None)  
-**Request body**  
-`SkiResort`  
-**Response body**  
-`SkiResort`  
-**Response status**  
-- `201 OK`  
-- `400 BAD REQUEST`  
-    Empty request body
-    
-`DELETE /favorite-ski-resorts/{skiResortId}`
-
-**Description**  
-Deletes ski resort from favorites of current `user`  
-**Path parameters**  
-`skiResortId`  
-**Query Parameters**  
-(None)  
-**Request body**  
-`SkiResort`  
-**Response body**  
-(None)  
-**Response status**  
-- `204 NO CONTENT`
-
-`GET /friends`
-
-**Description**  
-Returns friends of the current `User`  
-**Path parameters**  
-(None)  
-**Query Parameters**  
-(None)  
+`distance`  
 **Request body**  
 (None)  
 **Response body**  
-`User[]`  
-**Response status**  
-- `200 OK`
-
-`POST /friends`
-
-**Description**  
-Add a user to current list of `friends`  
-**Path parameters**  
-(None)  
-**Query Parameters**  
-(None)  
-**Request body**  
-`User`  
-**Response body**  
-`User`  
-**Response status**  
-- `201 OK`  
-- `400 BAD REQUEST`  
-    Empty request body
-
-`DELETE /friends/{userId}`
-
-**Description**  
-Remove specified user from current list of `friends`  
-**Path parameters**  
-`userId`  
-**Query Parameters**  
-(None)  
-**Request body**  
-(None)  
-**Response body**  
-(None)  
-**Response status**  
-- `204 NO CONTENT`
-
-`GET users/{userId}`
-
-**Description**  
-Returns a specific friend of the current `user`  
-**Path parameters**  
-- `userId`  
-    Friend `user` identifier  
-**Query Parameters**  
-(None)  
-**Request body**  
-(None)  
-**Response body**  
-`User`  
+`Trip[]`  
 **Response status**  
 - `200 OK`  
 - `404 NOT FOUND`
@@ -405,6 +440,21 @@ Gets and displays posts gathered by a keyword.
 **Response status**  
 - `204 NO CONTENT`
 
+`GET /messages/{messageId}`
+
+**Description**  
+Returns recent messages of current `user`  
+**Path parameters**  
+`messageId`  
+**Query Parameters**  
+(None)
+**Request body**  
+(None)  
+**Response body**  
+`Message[]`  
+**Response status**  
+- `200 OK`
+
 `GET /messages`
 
 **Description**  
@@ -415,18 +465,20 @@ Returns recent messages of current `user`
 - `sent`  
     Date sent (`yyyy-MM-dd`)  
 **Request body**  
-(None)  
+- `User`
+    `sender`  
+    `receiver`  
 **Response body**  
 `Message[]`  
 **Response status**  
 - `200 OK`
 
-`DELETE /messages`
+`DELETE /messages/{messageId}`
 
 **Description**  
 Deletes messages  
 **Path parameters**  
-(None)  
+`messageId`  
 **Query Parameters**  
 (None)  
 **Request body**  
