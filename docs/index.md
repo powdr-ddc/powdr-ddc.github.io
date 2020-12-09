@@ -1,27 +1,30 @@
 ## Team Members
 
-* Adrian Anaya
+* Adrian Anaya: Project leader, server side development, in charge of Ski Resorts and Weather
 
-* Jonah Rodriguez
+    * https://github.com/anayadrian1
 
-* Austin West
+* Jonah Rodriguez: In charge of the Wall and User screens, creation of most UI, server side development
+
+    * https://github.com/JonahRodriguez281
+
+* Austin West: Documentation of REST endpoints, build instructions, technology stack etc, server side development
+
+    * https://github.com/mwest1997
 
 ## Summary
 
-Powdr is a social ski app, designed to meet other riders around the world. Users will be able to create a user profile where they can upload pictures, state their skill level, list their home mountains, days logged, ect. Users will also be able to post to a shared community wall, allowing them to see posts only locally if they want based on GPS, or nationally if they want as well. 
-They can meetup with other riders, share pictures, talk about ski/snowboard advice, or whatever they want to talk about. If they so please, users can add other riders and message them. Using the different GPS capabilites, the app will be able to check your distance traveled per ski day, and log your tracked distance into a leaderboard where you can compare with friends and other people internationally. 
-To top it off, there will be a section in the app that will allow users to see the weather from various mountains of their choosing.
+Powdr is a social media application designed for connecting skiers and snowboarders around the world. In a world where social interaction is becoming less and less frequent, we have taken it upon ourselves to hone our coding skills with a project that was not only important to us individually, but important to the ever-changing dynamic of interacting with others who share similar hobbies and passions. 
 
- **Intended Functionality**
+Our application allows New Mexicans to connect with each other through an intuitive and user-friendly UI . Users of the application will have several features available upon signing into the app. After signing in using their Google Sign-In credentials, users can create posts to share with others through a shared community wall by sharing photos and text posts. In addition to the wall, users can record data in relation to a ski trip, such as the distance traveled and total days ridden for a given season, as well as check the weather of various ski resorts in the New Mexico/Colorado area through the use of the World Weather Online Ski Weather API. If they desire, they can add other users to their friends list and message each other to plan future trips, meetups on the mountain, general talk, etc.  Powdr aims to connect skiers and snowboarders alike, to come together and experience all that the beautiful southwest wintersport community has to offer.
 
-Users will create a profile that they can customize to their liking. They can upload pictures, create a biography, see their personal stats such as days ridden or distance traveled, and choose from a list of their favorited mountains for easy access to the weather.
-With a profile, the user can post to a shared community wall that is based off of GPS location, or a general international scope where users can see others from around their country. On this shared wall, users can comment on each others posts, upload pictures, and posts, to connect with 
-other people around the world. If a user connects with someone on the app, they can send a friend request to the respective user and message them from within the app. If the social connection aspect is not alluring to some folks, they can instead choose to use the app for utility, allowing them to track the weather at different ski resorts, log their distance traveled for a certain day, 
-and/or check the number of days they went skiing for a given season.
+The key functional elements in the app as it stands allows a user to post to a community Wall, refresh the feed with a swipe refresh, check out a list of local ski resorts with their respective weather stats, and have a basic user profile with their biography, and a list of ski resorts and friends that can be filled if desired.
 
-[Build Instructions](md/build-instructions.md)
+## [PDF Overview](pdf/powdr-overview.pdf)
 
-[Basic User Instructions](md/basic-instructions.md)
+## [Build Instructions](md/build-instructions.md)
+
+## [Basic User Instructions](md/basic-instructions.md)
 
 ## Intended users
 
