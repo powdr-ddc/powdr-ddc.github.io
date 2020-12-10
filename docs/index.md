@@ -22,6 +22,8 @@ The key functional elements in the app as it stands allows a user to post to a c
 
 ## [PDF Overview](pdf/powdr-overview.pdf)
 
+## [State of Project](md/state-of-project.md)
+
 ## [Build Instructions](md/build-instructions.md)
 
 ## [Basic User Instructions](md/basic-instructions.md)
@@ -84,26 +86,8 @@ The key functional elements in the app as it stands allows a user to post to a c
 	* Distance traveled for tracker
 	
 * **Device/external services**
-
-	* [GPS](https://developer.android.com/training/location)
 	
-		* The system will use the service to ping the users location to find out weather and track them on the mountain. System should still be functioal without the service.
-	
-	* [Contacts](https://developer.android.com/reference/android/provider/ContactsContract)
-	
-		* Contacts will be pinged to find friends on the app. System is still functional without it.
-	
-	* [Camera](https://developer.android.com/guide/topics/media/camera)
-	
-		* Allows user to take picture from their camera to upload to their profile. System is functional without it.
-	
-	* Weather
-	
-		* [Open Weather API](https://rapidapi.com/community/api/open-weather-map)
-		
-		* [Weatherbit API](https://rapidapi.com/weatherbit/api/weather)
-		
-			* Obtains weather data to update the weather aspect of the app. System can still function without it.
+    * [Open Weather API](https://rapidapi.com/community/api/open-weather-map)
 		
 ## Server component
 
@@ -123,7 +107,7 @@ The key functional elements in the app as it stands allows a user to post to a c
 	
 	* Community Wall Posts
 	
-	  Holds a database for main posts from community wall.
+	  Holds a database for main posts from the community wall.
 	  
 * **Persistent data**
 
@@ -136,14 +120,10 @@ The key functional elements in the app as it stands allows a user to post to a c
 	* Weather 
 	
 * **External services**
-
-    * Weather
 	
-		* [Open Weather API](https://rapidapi.com/community/api/open-weather-map)
+	* [Open Weather API](https://rapidapi.com/community/api/open-weather-map)
 		
-		* [Weatherbit API](https://rapidapi.com/weatherbit/api/weather)
-		
-			* Data base for weather data. App should still function without service.
+	* [Google Sign In](https://developers.google.com/identity/sign-in/web/sign-in)
 
 ## Server Side Design & Implementation
 

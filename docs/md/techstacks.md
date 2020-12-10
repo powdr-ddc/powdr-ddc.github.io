@@ -49,4 +49,8 @@
     * Custom activity and fragment classes
   * Authentication 
     * Google Sign In (external service; see https://developers.google.com/identity)
-    * Custom sign in service class        
+    * Custom sign in service class
+  * Formatting and UI
+    * PrettyTime
+    * CircleImage
+    * Picasso       

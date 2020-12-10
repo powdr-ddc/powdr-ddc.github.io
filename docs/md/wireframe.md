@@ -4,17 +4,9 @@ Powdr will consist of four main screens:
 
  * The User Profile
  
-    * Settings sub screen
- 
  * Messages
  
  * Community Wall
- 
-    * Two fragments:
-        
-        1. National Feed
-        
-        2. Local Feed
  
  * Ski Resort Weather
  
