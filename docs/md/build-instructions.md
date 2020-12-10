@@ -26,6 +26,9 @@ Repository can be found here: [Powdr Android](https://github.com/powdr-ddc/powdr
 
 ### Running the project
 
+**NOTE:**
+An API Key is required for this project to compile. A powdr.properties file will be sent personally with the API information as well as the other fields required for the project to build. Download the powdr.properties file into the service directory of your project folder.
+
 First, you will need to open the service project. 
 
 1.To run the server, you will have to navigate to the PreloadLauncher class, and run the program 
