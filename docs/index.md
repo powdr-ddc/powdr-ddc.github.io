@@ -145,7 +145,9 @@ The key functional elements in the app as it stands allows a user to post to a c
 
 ### [REST Controllers and Application Logic Services](md/endpoints.md)
 
-### [Javadocs](api/server/index.html)
+### [Javadocs Server](api/server/index.html)
+
+### [Javadocs Client](api/client/index.html)
 
 ## Stretch goals/possible enhancements 
 
