@@ -4,11 +4,11 @@ Rest Controller Classes:
 
 * [Post](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/controller/PostController.java)
 
-* [SkiResort]((https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/controller/SkiResortController.java))
+* [SkiResort](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/controller/SkiResortController.java)
 
-* [Trip]((https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/controller/TripController.java))
+* [Trip](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/controller/TripController.java)
 
-* [User]((https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/controller/UserController.java))
+* [User](https://github.com/powdr-ddc/powdr-service/blob/master/src/main/java/edu/cnm/deepdive/powdr/controller/UserController.java)
 
 Service Classes: 
 
