@@ -72,11 +72,7 @@ The key functional elements in the app as it stands allows a user to post to a c
 	* Weather
 	
 	  Screen for real-time weather data
-		
-	* GPS Distance Tracker
-	
-	  Screen for tracking distance traveled through GPS to upload to a leaderboard and share with friends/community.
-    
+		    
 * **Persistent data**
 
     * User Profile
